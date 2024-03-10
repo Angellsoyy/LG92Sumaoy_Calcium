@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <button onclick="hinata()">image one</button>
+    <button onclick="hin()"> image two </button>
+
+    <img id="imageone"  src="img1.jpg"> 
+    <img  id="imagetwo"  src="img2.jpg">    
+
+    <script>
+        var fi = document.getElementById("imageone");
+        var si = document.getElementById("imagetwo");
+        function hinata()
+        {
+            fi.style.display = "block";
+            si.style.display = "none"; 
+        }
+        function hin()
+        {
+            fi.style.display = "none";
+            si.style.display = "block";
+        }
+    </script>
+</body>
+</html>
